@@ -18,6 +18,7 @@ h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; text-wrap: balance; }
 p, li { max-width: 65ch; }
 .lede { font-size: 1.15rem; color: var(--muted); }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.card h2 { margin-top: .25rem; }
 .yt { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem 1rem; margin: 1rem 0 .5rem; }
 .yt-logo { display: block; line-height: 0; border-radius: 6px; }
 .yt-logo img { width: 298px; max-width: 100%; height: auto; display: block; }

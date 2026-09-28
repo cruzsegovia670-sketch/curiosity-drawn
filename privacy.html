@@ -21,7 +21,7 @@
 
   <p>This policy covers two things: this website, and <strong>Curiosity Drawn Publisher</strong>, the private tool the channel owner uses to publish the Curiosity Drawn channel's own videos to YouTube.</p>
 
-  <h2>Curiosity Drawn Publisher uses YouTube API Services</h2>
+  <h2 id="youtube-api-services">Curiosity Drawn Publisher uses YouTube API Services</h2>
   <p>Curiosity Drawn Publisher uses <strong>YouTube API Services</strong>. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a> applies to the data Google handles.</p>
   <p>The Publisher is not a public service. Its only user is the channel owner, who signs in with their own Google account through Google's authorization screen (OAuth 2.0). It asks for two permissions only:</p>
   <ul>
@@ -29,15 +29,15 @@
     <li><strong>View the YouTube account</strong> (<code>youtube.readonly</code>), to confirm the right channel is connected and to check each upload.</li>
   </ul>
 
-  <h2>What the Publisher accesses, and why</h2>
+  <h2 id="data-accessed">What the Publisher accesses, and why</h2>
   <ul>
     <li><strong>The owner's channel ID and channel title</strong>, to make sure uploads go to the right channel.</li>
     <li><strong>For videos on the owner's channel:</strong> the video ID, title, visibility (public, unlisted or private) and upload / processing status. This lets the Publisher confirm an upload arrived with the visibility the owner chose. It also lets the owner mark a video they uploaded by hand, so the Publisher never uploads it a second time.</li>
     <li><strong>The owner's channel statistics</strong> (subscriber count, video count, the view counts of the channel's own videos). They are shown only to the owner on a private dashboard, and used to see how the channel's own videos are doing when choosing new video ideas.</li>
   </ul>
-  <p>The Publisher uploads a video only when the owner presses POST NOW for that video, or picks a date and time for it. It uses the title, description and visibility the owner chose. It never uploads, edits or deletes anything on its own, and it never acts on any other account.</p>
+  <p>The Publisher uploads a video only after the owner has approved that video: either the owner presses POST NOW (and confirms), or the owner schedules it. For a long video the owner picks the exact date and time; for a Short the owner approves it for the next open time in the channel's posting timetable, which is shown before anything is posted. The upload then happens at that time. It uses the title, description and visibility the owner chose. It never uploads a video the owner has not approved, it cannot edit or delete videos (it has no permission to), and it never acts on any other account.</p>
 
-  <h2>What is stored, and for how long</h2>
+  <h2 id="storage-and-retention">What is stored, and for how long</h2>
   <ul>
     <li><strong>The authorization token</strong> Google issues when the owner connects, and the list of granted permissions. They are kept in a configuration file on our private server that only the Publisher's own system account (and the server's administrator) can read. They are never written to logs, shown in the app or sent to anyone.</li>
     <li><strong>Publication records:</strong> the video ID of each video the Publisher uploaded or the owner linked, what the owner asked for (visibility, time), and the video's title, visibility and processing status as YouTube reported them.</li>
@@ -45,23 +45,23 @@
   </ul>
   <p>Data received from YouTube is <strong>refreshed or deleted within 30 days</strong>. Statistics snapshots are deleted after 30 days. The title, visibility and processing status in a publication record are read again from YouTube after 30 days, or erased if YouTube can no longer be asked. Video IDs are kept while the owner uses the Publisher, so the same video is never uploaded twice.</p>
 
-  <h2>How the data is used and shared</h2>
+  <h2 id="use-and-sharing">How the data is used and shared</h2>
   <p>Only to publish the channel owner's videos and to show the owner their status. It is <strong>not sold, not shared with other companies, and not used for advertising</strong>.</p>
   <p>The Publisher's control panel is a private <strong>Telegram</strong> bot that answers only the owner's own chat. Status messages about the owner's videos (titles, links, visibility) are delivered through Telegram to that chat. Telegram's handling of messages is covered by the <a href="https://telegram.org/privacy">Telegram Privacy Policy</a>.</p>
 
-  <h2>This website</h2>
+  <h2 id="this-website">This website</h2>
   <p>This site is a set of static pages. It has no sign-in and no forms, and it sets no cookies. It uses no analytics or advertising and stores nothing on your device. We collect no personal information through it. The site is hosted on GitHub Pages. GitHub may keep standard technical logs, such as visitors' IP addresses, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
 
-  <h2>Revoking access</h2>
+  <h2 id="revoking-access">Revoking access</h2>
   <p>The owner can revoke the Publisher's access to their Google account at any time at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>. After that the Publisher can no longer read or upload anything. Data it stored from YouTube is erased within 30 days, because it can no longer be refreshed.</p>
 
-  <h2>Deleting data</h2>
+  <h2 id="deleting-data">Deleting data</h2>
   <p>To have all data the Publisher stored from YouTube deleted, email <a href="mailto:cruzsegovia670@gmail.com">cruzsegovia670@gmail.com</a>. We delete it as soon as possible and <strong>within 7 days</strong>, and delete the stored authorization token if asked. Revoking access (above) additionally stops all future access.</p>
 
-  <h2>Children</h2>
+  <h2 id="children">Children</h2>
   <p>This website and the Publisher are not directed at children under 13. The Publisher is used only by the channel owner.</p>
 
-  <h2>Changes</h2>
+  <h2 id="changes">Changes</h2>
   <p>If this policy changes, this page and its effective date are updated.</p>
 </main>
 <footer>
